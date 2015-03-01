@@ -1,3 +1,8 @@
+@font-face {
+   font-family: 'robota-thin';
+   src: url('../fonts/Roboto-Thin.ttf');
+}
+
 #main {
   text-align: center;
 }
@@ -23,6 +28,8 @@ body {
     line-height: 1.7em;
     color: #7f8c8d;
     font-size: 13px;
+    background-color: #d5d5d5;
+    font-family: 'robota-thin', serif;
 }
 
 h1,
@@ -53,6 +60,8 @@ label {
     border-bottom: none;
     /* I need a higher z-index here because of the scroll-over effect. */
     z-index: 4;
+/*    background-color: #483D8B;*/
+    background-color: #878399;
 }
 
 .home-menu .pure-menu-heading {
@@ -97,4 +106,21 @@ label {
     margin: 20px;
     height: 64px;
     width: 64px;
+}
+
+#footer {
+/*      Position: absolute;*/
+      background-color: #878399;
+      Width: 100%;
+      Bottom: 0;
+      Height: 75px;  /* This value is the height of your footer */
+      color: white;
+}
+
+.feature-list {
+  color: black;
+}
+
+ul {
+    list-style-type: none;
 }
