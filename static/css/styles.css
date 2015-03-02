@@ -113,7 +113,7 @@ label {
       background-color: #878399;
       Width: 100%;
       Bottom: 0;
-      Height: 75px;  /* This value is the height of your footer */
+      Height: 100px;  /* This value is the height of your footer */
       color: white;
 }
 
